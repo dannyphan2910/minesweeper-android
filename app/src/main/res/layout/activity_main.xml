@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:id="@+id/linLayout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#000000"
+        tools:context=".MainActivity">
+
+    <LinearLayout
+            android:id="@+id/msViewLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+        <hu.ait.minesweeper.ui.MinesweeperView
+                android:id="@+id/msView"
+                android:layout_width="400dp"
+                android:layout_height="400dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/tvMine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:textSize="24sp"/>
+
+        <ToggleButton
+                android:id="@+id/tbMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textOn="@string/flag_mode"
+                android:textOff="@string/normal_mode"
+                android:textSize="18sp"/>
+
+        <Button
+                android:id="@+id/resetBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reset_game"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

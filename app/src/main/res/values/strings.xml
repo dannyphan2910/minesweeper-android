@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MineSweeper</string>
+    <string name="flag_mode">FLAG MODE</string>
+    <string name="normal_mode">NORMAL MODE</string>
+    <string name="reset_game">RESET GAME</string>
+    <string name="dimension_hint">Enter the dimension</string>
+    <string name="mines_hint">Enter the number of mines</string>
+    <string name="beginner">BEGINNER</string>
+    <string name="master">MASTER</string>
+    <string name="creator">CREATOR</string>
+    <string name="error_dimension">Please enter a valid number</string>
+    <string name="error_mines">Please enter a valid number</string>
+    <string name="error_dimension_input">Valid dimension is between 3 and 12</string>
+    <string name="error_mines_input">Too many mines</string>
+    <string name="won_text">YOU WON</string>
+    <string name="lost_text">YOU LOST</string>
+    <string name="ok_text">OK</string>
+    <string name="mines_num">MINES LEFT: %1$d</string>
+</resources>
